@@ -1,0 +1,75 @@
+html {
+  text-align: center;
+  font-family: page;
+}
+
+@font-face {
+  font-family: page;
+  src: url("Lato-Regular.ttf");
+}
+
+input {
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.input button {
+  border: none;
+  width: 55px;
+  padding: 5px;
+  height: 55px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button img {
+  width: 35px;
+  height: 35px;
+}
+
+.input {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendarBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendarHeader {
+  margin-bottom: 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.calendarHeader button{
+    background-color: white;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+table {
+  border-collapse: collapse;
+
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+}
